@@ -1,0 +1,45 @@
+Name,Term,Prerequisites,Corequisites,Mutual Corequisites,Credits,Passrate
+ENWR 1101(Acad. Writing),1,,,,3,10
+UNIV 1001(Transitioning to Univ. life),1,,,,3,13
+ENWR 1301(Eng. Practices),1,,,,3,15
+MATH 1201(Calculas I),1,,,,3,12
+PHYS 2203(Univ. Physics I),1,,MATH 1201,PHYS 2201,3,11
+PHYS 2201(Physics Lab I),1,,,PHYS 2203,3,9
+ENWR 1102(Aacd. Writing & Research),2,ENWR 1101,,,3,20
+UNIV 1002(Prep. For Prof. Life),2,UNIV 1001,,,3,20
+ENGR 1204(Prog. Lang. in Eng.),2,,,,3,12
+ENGR 2286(Digital sys. Design),2,,,,3,13
+MATH 2202(Calculas II),2,MATH 1201,,,3,15
+PHYS 2204(Univ. Physics II),2,PHYS 2203,,PHYS 2202,3,13
+PHYS 2202(Physics Lab II),2,,,PHYS 2204,3,17
+UNIV 2001(Cross-Cultural Perspectives),3,"UNIV 1002,ENWR 1101",,,3,19
+ENGR 3200(Adv. Eng. Prog.),3,ENGR 1204,,,3,11
+EENG 2287(Microprocessor sys. Design.I),3,ENGR 2286,,,3,16
+MATH 2210(Differential Equations),3,MATH 2202,,,3,20
+EENG 2221(Signals & Sys. I),3,"MATH 2202,PHYS 2204",,,3,10
+ENGR 2210(Tech. Comm.),4,ENWR 1101,,,3,20
+UNIV 2002 (Global Issues),4,UNIV 2001,,,3,20
+EENG 3288(MicroprocessorSyst. Dsgn. II),4,EENG 2287,,,3,9
+ENGR 4221(Eng. Stat. &Reliability),4,MATH 2202,,,3,10
+EENG 2222(Signals & Systems II),4,"MATH 2210,EENG 2221",,,3,20
+ENGR 4210(Mngr. & Eng.Eco Analysis),5,MATH 2202,,,3,15
+MATH 2203 (Calculus III),5,MATH 2202,,,3,14
+EENG 3223(Linear Systems),5,"MATH 2210,EENG 2222",,,3,16
+EENG 3265(Electronics I),5,EENG 2222,,,3,18
+MECH 2224(Mech. Eng.Topics),5,PHYS 2203,,,3,19
+CHEM 1201(General Chemistry),6,,,CHEM 1203,3,17
+CHEM 1203(General Chemistry Lab I),6,,,CHEM1201,3,14
+ENGR 3341(Adv Eng. Mathematics),6,MATH 2203,,,3,13
+EENG 3224(Dig. Sig. Processing),6,EENG 3223,,,3,12
+EENG 3266(Electronics II),6,EENG 3265,,,3,17
+ENGR 3000(Modern Technologies),6,,,,3,15
+Tech Elective,7,,,,3,20
+EENG 4342(Data Comm. & Comp. Network),7,Senior Status,,,3,20
+EENG 4260(Prep. for EE Project),7,Senior Status,,,3,12
+EENG 3244(Electromag.Fields & Waves),7,"ENGR 3341,PHYS 2204",,,3,11
+EENG 4355(Analog & Dig. Control),7,EENG 3223,,,3,17
+EENG 3267( Electronics III),7,"EENG 3266,EENG 2222",,,3,18
+Tech Electives (9 credits),8,,,,3,14
+EENG 4347(Wireless Comm.),8,Senior Status,,,3,16
+EENG 4268(Elec. Eng. Project),8,EENG 4260,,,3,15
+EENG 4341(Comm. Sys.),8,EENG 3223,,,3,18

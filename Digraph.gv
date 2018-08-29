@@ -1,0 +1,148 @@
+digraph {
+	graph [rankdir=RL]
+	edge [color=green]
+	subgraph cluster_0 {
+		graph [rank=same]
+		node [color=white style=filled]
+		edge [color=red]
+		style=filled
+		color=lightgrey
+		"ENWR 1101"
+		"UNIV 1001"
+		"ENWR 1301"
+		"MATH 1201"
+		"PHYS 2203"
+		"PHYS 2201"
+		"PHYS 2203" -> "MATH 1201"
+		label="Term 1"
+	}
+	subgraph cluster_1 {
+		graph [rank=same]
+		node [color=white style=filled]
+		style=filled
+		color=lightgrey
+		"ENWR 1102"
+		"UNIV 1002"
+		"ENGR 1204"
+		"ENGR 2286"
+		"MATH 2202"
+		"PHYS 2204"
+		"PHYS 2202"
+		label="Term 2"
+	}
+	subgraph cluster_2 {
+		graph [rank=same]
+		node [color=white style=filled]
+		style=filled
+		color=lightgrey
+		"UNIV 2001"
+		"ENGR 3200"
+		"EENG 2287"
+		"MATH 2210"
+		"EENG 2221"
+		label="Term 3"
+	}
+	subgraph cluster_3 {
+		graph [rank=same]
+		node [color=white style=filled]
+		style=filled
+		color=lightgrey
+		"ENGR 2210"
+		"UNIV 2002 "
+		"EENG 3288"
+		"ENGR 4221"
+		"EENG 2222"
+		label="Term 4"
+	}
+	subgraph cluster_4 {
+		graph [rank=same]
+		node [color=white style=filled]
+		style=filled
+		color=lightgrey
+		"ENGR 4210"
+		"MATH 2203 "
+		"EENG 3223"
+		"EENG 3265"
+		"MECH 2224"
+		label="Term 5"
+	}
+	subgraph cluster_5 {
+		graph [rank=same]
+		node [color=white style=filled]
+		style=filled
+		color=lightgrey
+		"CHEM 1201"
+		"CHEM 1203"
+		"ENGR 3341"
+		"EENG 3224"
+		"EENG 3266"
+		"ENGR 3000"
+		label="Term 6"
+	}
+	subgraph cluster_6 {
+		graph [rank=same]
+		node [color=white style=filled]
+		edge [color=orange]
+		style=filled
+		color=lightgrey
+		"Tech Elective"
+		"EENG 4342"
+		"EENG 4260"
+		"EENG 3244"
+		"EENG 4355"
+		"EENG 3267"
+		"Senior Status"
+		"EENG 4342" -> "Senior Status"
+		"EENG 4260" -> "Senior Status"
+		label="Term 7"
+	}
+	subgraph cluster_7 {
+		graph [rank=same]
+		node [color=white style=filled]
+		edge [color=red]
+		style=filled
+		color=lightgrey
+		"Tech Electives "
+		"EENG 4347"
+		"EENG 4268"
+		"EENG 4341"
+		"Senior Status"
+		"EENG 4347" -> "Senior Status"
+		label="Term 8"
+	}
+	"ENWR 1102" -> "ENWR 1101"
+	"UNIV 1002" -> "UNIV 1001"
+	"MATH 2202" -> "MATH 1201"
+	"PHYS 2204" -> "PHYS 2203"
+	"UNIV 2001" -> "UNIV 1002"
+	"UNIV 2001" -> "ENWR 1101"
+	"ENGR 3200" -> "ENGR 1204"
+	"EENG 2287" -> "ENGR 2286"
+	"MATH 2210" -> "MATH 2202"
+	"MATH 2210" -> "PHYS 2204"
+	"EENG 2221" -> "MATH 2202"
+	"EENG 2221" -> "PHYS 2204"
+	"ENGR 2210" -> "ENWR 1101"
+	"UNIV 2002 " -> "UNIV 2001"
+	"EENG 3288" -> "EENG 2287"
+	"ENGR 4221" -> "PHYS 2203"
+	"EENG 2222" -> "MATH 2210"
+	"EENG 2222" -> "EENG 2221"
+	"ENGR 4210" -> "MATH 2202"
+	"MATH 2203 " -> "MATH 2202"
+	"EENG 3223" -> "ENGR 2210"
+	"EENG 3223" -> "EENG 2222"
+	"EENG 3265" -> "EENG 2222"
+	"MECH 2224" -> "PHYS 2203"
+	"ENGR 3341" -> "MATH 2203 "
+	"EENG 3224" -> "EENG 3223"
+	"EENG 3266" -> "EENG 3265"
+	"EENG 3244" -> "ENGR 3341"
+	"EENG 3244" -> "PHYS 2204"
+	"EENG 4355" -> "EENG 3223"
+	"EENG 3267" -> "EENG 3266"
+	"EENG 3267" -> "EENG 2222"
+	"EENG 4268" -> "EENG 4260"
+	"EENG 4341" -> "EENG 3223"
+	rank=same
+}
