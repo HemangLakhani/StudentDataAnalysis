@@ -1,7 +1,6 @@
 # StudentDataAnalysis
-Hey Folks,
 
-This project is 3 year long project of which I was part. I have done initial analysis of student data of Fairleigh Dickinson University.I can not provide data because of confidentiality. However, you can get some idea by looking into Jupyter Notebooks. Everything is done by myself while learning simultaneously. Any suggestions, edits are welcome and appreciated. I am still new in Data field. 
+This project is 3 year long project of which I was part. I have done initial analysis of student data of Fairleigh Dickinson University.I can not provide data because of confidentiality. However, you can get some idea by looking into Jupyter Notebooks. Everything is done by myself while learning simultaneously. Any suggestions, edits are welcome and appreciated. I am still new in Data Science field. 
 
 ABOUT PROJECT:
 
@@ -9,7 +8,7 @@ It is proposed by Dr.Ravi Rao, Assistant professor of Gildart Hasse School of Co
 
 Technologies/Frameworks/Libraries will be used:
 
-This project is going to developed using python. It may need to use several open source libraries like Numpy, Pandas, Plotly, Seaborn, D3.js, Scikit-learn, Matplotlib, Tensorflow etc.
+This project is going to developed using python. It may need to use several open source libraries like Numpy, Pandas, Plotly, Seaborn, Scikit-learn, Matplotlib, Tensorflow etc.
 
 NOTE:
 
