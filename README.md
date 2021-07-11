@@ -12,6 +12,6 @@ This project is going to developed using python. It may need to use several open
 
 NOTE:
 
-This is not a full project. Like I already mentioned that it is 3 year long project and I was part in the beginning. So, whatever is done by me is available. However, If development occure in future by me then I will surely update it.
+This is not a full project. Like I already mentioned that it is 3 year long project and I was part in the beginning. So, whatever is done by me is available. However, If development occur in future by me then I will surely update it.
 
 Hemang Lakhani.
